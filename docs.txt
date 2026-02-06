@@ -1,0 +1,13 @@
+- PHP là ngô ngữ xử lí logic phía server
+- PHP dành riêng chỉ làm website
+-> kHÁI Niệm Server side rendering
+
+- PHP nhẹ
+- dễ tiếp cận -> cú pháp đơn giản, ko cần compile, build code
+
+
+Bài tập:
+
+Tạo 1 project profile cá nhân gồm các nội dung Header , Content, Footer.
+-> thiết kế bố cục, màu sắc hợp lý.
+-> bắt buộc sử dụng HTML, CSS để tạo layout, màu sắc và JS để tạo các hiệu ưngs.

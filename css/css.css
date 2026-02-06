@@ -1,0 +1,32 @@
+.header1 {
+        height: 200px;
+            color: rgb(0, 0, 239);
+            background-color: aqua;
+        }
+        ul{
+            display: flex;
+            gap: 50px;
+            background-color: #e1d4d4;
+            padding: 20px 10px;
+        }
+        main{
+            height: 200px;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #dc3434;
+        }
+
+        footer{
+            height: 300px;
+            background-color: lightseagreen;
+        }
+
+        button{
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+        }
+        button:hover{
+            background-color: blue;
+        }
