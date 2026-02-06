@@ -7,7 +7,7 @@
 
 
 Bài tập:
-
+-> Tạo ra folder riêng 
 Tạo 1 project profile cá nhân gồm các nội dung Header , Content, Footer.
 -> thiết kế bố cục, màu sắc hợp lý.
 -> bắt buộc sử dụng HTML, CSS để tạo layout, màu sắc và JS để tạo các hiệu ưngs.
