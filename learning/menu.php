@@ -1,30 +1,17 @@
-<?php 
+<?php
 // code php
-$menus = [
-    [
-        'name' => 'Trang chủ123',
-        'link' => 'https://example.com'
-    ],
-    [
-        'name' => 'Trang danh sách sản phẩm',
-        'link' => '#'
-    ],
-    [
-        'name' => 'Trang giới thiệu',
-        'link' => '#'
-    ],
-    [
-        'name' => 'Trang liên hệ',
-        'link' => '#'
-    ],
-];
+require_once('./db.php');
 
+// connect to mysql
+$pdo = connectDB();
+$stmt = $pdo->query("SELECT * FROM menus");
+$menus = $stmt->fetchAll();
 ?>
 
 <ul>
     <?php foreach($menus as $menu): ?>
         <li>
-            <a href="<?= $menu['link']; ?>">
+            <a href="<?= $menu['url']; ?>">
                 <?= $menu['name']; ?>
             </a>
         </li>
