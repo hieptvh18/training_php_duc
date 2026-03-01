@@ -1,5 +1,5 @@
 <?php
-require_once "../db.php";
+require_once "../../admin/config/db.php";
 
 if (!empty($_POST)) {
     $pdo = connectDB();
